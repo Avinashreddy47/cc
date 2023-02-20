@@ -5,5 +5,4 @@ sqlalchemy
 azure.storage.blob
 pillow
 geopy
-math
-datetime
+
