@@ -2,7 +2,4 @@ flask
 pandas
 pyodbc
 sqlalchemy
-azure.storage.blob
-pillow
-geopy
 

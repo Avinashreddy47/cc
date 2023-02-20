@@ -1,21 +1,12 @@
-import azure.storage
 from datetime import datetime, timedelta
-import requests
 from datetime import datetime, timedelta
-from azure.storage.blob import BlobServiceClient
 from flask import Flask, request, render_template
-from azure.storage.blob import generate_blob_sas, BlobSasPermissions,BlobServiceClient
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-import os
-from os import listdir
 import pyodbc
-from azure.storage.blob import PublicAccess,BlobClient
 import pandas as pd
 import math
-from asyncio import start_server
 
-from geopy.distance import geodesic
 app = Flask(__name__)
  
 connection = pyodbc.connect('DRIVER={SQL Server};SERVER=seethamma.database.windows.net;DATABASE=chilipi;UID=mysql;PWD=classmate@1')
