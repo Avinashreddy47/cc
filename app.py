@@ -1,5 +1,4 @@
-from datetime import datetime, timedelta
-from datetime import datetime, timedelta
+from datetime import datetime
 from flask import Flask, request, render_template
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
@@ -136,7 +135,7 @@ def uploadData():
     cursor.close()  
 # uploadData()
 if __name__ == '__main__':
-   app.run()
+   app.run(debug = True)
 
 
 
