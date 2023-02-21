@@ -50,8 +50,5 @@ typing_extensions==4.4.0
 urllib3==1.26.14
 wcwidth==0.2.6
 Werkzeug==2.2.2
-pyodbc
-sqlalchemy
-express
-axios
-body-parser
+pyodbc ==4.0.2
+
